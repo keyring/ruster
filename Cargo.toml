@@ -1,0 +1,10 @@
+[package]
+name = "ruster"
+version = "0.1.0"
+authors = ["key <key@KEY-BOX>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bindings = {package="ruster_bindings", path = "bindings" }
